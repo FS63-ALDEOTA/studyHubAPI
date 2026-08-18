@@ -1,7 +1,7 @@
 {
   "usuarios": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "Raul Teles",
       "email": "raul.teles@example.com",
       "senha": "senha123"
@@ -9,19 +9,19 @@
   ],
   "matriculas": [
     {
-      "id": 1,
+      "id": "1",
       "usuarioId": 1,
       "cursoId": 1,
       "dataMatricula": "2026-01-15T10:30:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "usuarioId": 1,
       "cursoId": 2,
       "dataMatricula": "2026-02-20T14:45:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "usuarioId": 1,
       "cursoId": 3,
       "dataMatricula": "2026-03-10T09:15:00Z"
@@ -29,119 +29,173 @@
   ],
   "progresso": [
     {
-      "id": 1,
+      "id": "1",
       "usuarioId": 1,
       "cursoId": 1,
       "moduloId": 1,
       "aulaId": 1,
-      "concluido": true
+      "concluido": true,
+      "dataConclusao": "2026-01-20T12:00:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "usuarioId": 1,
       "cursoId": 1,
       "moduloId": 1,
       "aulaId": 2,
-      "concluido": true
+      "concluido": true,
+      "dataConclusao": "2026-01-22T15:30:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "usuarioId": 1,
       "cursoId": 1,
       "moduloId": 2,
       "aulaId": 3,
-      "concluido": false
+      "concluido": true,
+      "dataConclusao": "2026-01-25T11:45:00Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "usuarioId": 1,
       "cursoId": 2,
       "moduloId": 4,
       "aulaId": 4,
-      "concluido": true
+      "concluido": true,
+      "dataConclusao": "2026-02-25T14:00:00Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "usuarioId": 1,
       "cursoId": 2,
       "moduloId": 4,
       "aulaId": 5,
-      "concluido": false
+      "concluido": false,
+      "dataConclusao": null
     },
     {
-      "id": 6,
+      "id": "6",
       "usuarioId": 1,
       "cursoId": 2,
       "moduloId": 4,
       "aulaId": 6,
-      "concluido": false
+      "concluido": false,
+      "dataConclusao": null
     },
     {
-      "id": 7,
+      "id": "7",
       "usuarioId": 1,
       "cursoId": 3,
       "moduloId": 5,
       "aulaId": 7,
-      "concluido": true
+      "concluido": true,
+      "dataConclusao": "2026-03-15T10:30:00Z"
     },
     {
-      "id": 8,
+      "id": "8",
       "usuarioId": 1,
       "cursoId": 3,
       "moduloId": 5,
       "aulaId": 8,
-      "concluido": false
+      "concluido": false,
+      "dataConclusao": null
+    },
+    {
+      "id": "Xr3lR_Y7-QM",
+      "usuarioId": 1,
+      "cursoId": "1",
+      "moduloId": 2,
+      "aulaId": "4",
+      "concluido": true,
+      "dataConclusao": "2026-01-28T16:20:00Z"
+    },
+    {
+      "id": "Mt135PErjqA",  
+      "usuarioId": 1,
+      "cursoId": "1",
+      "moduloId": 2,
+      "aulaId": "5",
+      "concluido": true,
+      "dataConclusao": "2026-01-30T14:10:00Z"
+    },
+    {
+      "usuarioId": 1,
+      "cursoId": "1",
+      "moduloId": 2,
+      "aulaId": "6",
+      "concluido": true,
+      "id": "lhQAVkW5V6c",
+      "dataConclusao": "2026-02-02T11:50:00Z"
     }
   ],
   "cursos": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "React do Zero",
       "professor": "Carlos Mendes",
       "duracaoHoras": 40,
-      "totalAulas": 20,
-      "palavrasChave": ["REACT & WEB", "Básico ao Avançado"],
+      "totalAulas": 8,
+      "palavrasChave": [
+        "REACT & WEB",
+        "Básico ao Avançado"
+      ],
       "imagem": "/images/react-do-zero.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "JavaScript Moderno",
       "professor": "Carlos Mendes",
       "duracaoHoras": 12,
-      "totalAulas": 20,
-      "palavrasChave": ["JAVASCRIPT ES6", "Básico ao Avançado"],
+      "totalAulas": 8,
+      "palavrasChave": [
+        "JAVASCRIPT ES6",
+        "Básico ao Avançado"
+      ],
       "imagem": "/images/javascript-moderno.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "Git & Github",
       "professor": "Carlos Mendes",
       "duracaoHoras": 4,
-      "totalAulas": 20,
-      "palavrasChave": ["GIT & GITHUB", "Básico ao Avançado"],
+      "totalAulas": 8,
+      "palavrasChave": [
+        "GIT & GITHUB",
+        "Básico ao Avançado"
+      ],
       "imagem": "/images/git-github.jpg"
     }
   ],
   "modulos": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "Introdução ao React",
       "cursoId": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "O Coração do React",
       "cursoId": 1
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "Hooks e Além",
       "cursoId": 1
+    },
+    {
+      "id": "4",
+      "nome": "Fundamentos do JavaScript",
+      "cursoId": 2
+    },
+    {
+      "id": "5",
+      "nome": "Controle de Versão com Git",
+      "cursoId": 3
     }
   ],
   "aulas": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "O que é React?",
       "moduloId": 1,
       "duracaoMinutos": 12,
@@ -149,7 +203,7 @@
       "conteudo": "História do React e sua evolução. Conceitos fundamentais: Componentes, Props e State. Vantagens do React em relação a outras bibliotecas e frameworks. Casos de uso e exemplos de aplicações construídas com React."
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "Configurando o Ambiente",
       "moduloId": 1,
       "duracaoMinutos": 8.75,
@@ -157,7 +211,7 @@
       "conteudo": "Instalação do Node.js e npm. Criando um projeto React com Create React App. Estrutura de pastas e arquivos do projeto. Configuração do editor de código e extensões úteis. Executando o aplicativo React no navegador."
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "JSX desvendado",
       "moduloId": 2,
       "duracaoMinutos": 22.25,
@@ -165,7 +219,7 @@
       "conteudo": "O que é JSX e como ele funciona. Diferença entre JSX e HTML. Como o JSX é transformado em JavaScript. Expressões e interpolação de valores no JSX. Atributos e propriedades em elementos JSX."
     },
     {
-      "id": 4,
+      "id": "4",
       "nome": "Pensando em Componentes",
       "moduloId": 2,
       "duracaoMinutos": 15.5,
@@ -173,7 +227,7 @@
       "conteudo": "O que são Componentes e porque utilizá-los. Diferença entre Componentes de Classe e Componentes Funcionais. Estrutura básica de um Componente React. Props e State: Conceitos fundamentais para criar componentes dinâmicos."
     },
     {
-      "id": 5,
+      "id": "5",
       "nome": "Props e Componentes",
       "moduloId": 2,
       "duracaoMinutos": 45.33,
@@ -181,7 +235,7 @@
       "conteudo": "O que são Props e porque usá-las. Desestruturação de props em componentes funcionais. Tipagem de props com TypeScript (Básico). Default Props e children."
     },
     {
-      "id": 6,
+      "id": "6",
       "nome": "State e Ciclo de Vida",
       "moduloId": 2,
       "duracaoMinutos": 45.17,
@@ -189,7 +243,7 @@
       "conteudo": "O que é State e como utilizá-lo. useState: Hook para gerenciar estado em componentes funcionais. Ciclo de vida de componentes e como o State se relaciona com ele. Atualização de estado assíncrona e suas implicações."
     },
     {
-      "id": 7,
+      "id": "7",
       "nome": "Hooks: useState e useEffect",
       "moduloId": 3,
       "duracaoMinutos": 45.33,
@@ -197,14 +251,37 @@
       "conteudo": "useState: Hook para gerenciar estado em componentes funcionais. useEffect: Hook para lidar com efeitos colaterais, como chamadas de API e manipulação do DOM. Dependências do useEffect e como evitar loops infinitos. Limpeza de efeitos e boas práticas."
     },
     {
-      "id": 8,
+      "id": "8",
       "nome": "Hooks: useContext",
       "moduloId": 3,
       "duracaoMinutos": 45.17,
       "descricao": "Nesta aula, vamos explorar o Hook useContext, que permite compartilhar dados entre componentes sem a necessidade de passar props manualmente em cada nível da árvore de componentes. Você aprenderá como criar e consumir contextos no React.",
       "conteudo": "O que é Context API e quando utilizá-la. Criando um contexto com React.createContext. Consumindo o contexto com useContext em componentes funcionais. Atualizando o contexto e propagando mudanças para os componentes consumidores."
+    },
+    {
+      "id": "9",
+      "nome": "Hooks: useReducer",
+      "moduloId": 3,
+      "duracaoMinutos": 45.33,
+      "descricao": "Nesta aula, vamos explorar o Hook useReducer, que é uma alternativa ao useState para gerenciar estados mais complexos em componentes funcionais. Você aprenderá como utilizar o padrão de reducer para atualizar o estado de forma previsível.",
+      "conteudo": "O que é useReducer e quando utilizá-lo. Estrutura de um reducer: estado inicial, ação e função reducer. Despachando ações para atualizar o estado. Comparação entre useState e useReducer em termos de complexidade de estado."
+    },
+    {
+      "id": "10",
+      "nome": "JavaScript Moderno",
+      "moduloId": 4,
+      "duracaoMinutos": 45.17,
+      "descricao": "Nesta aula, vamos explorar os recursos modernos do JavaScript, incluindo ES6 e além. Você aprenderá sobre as novas funcionalidades da linguagem, como arrow functions, template literals, destructuring, módulos e muito mais.",
+      "conteudo": "Introdução ao JavaScript moderno e suas vantagens. Arrow functions e suas diferenças em relação às funções tradicionais. Template literals e interpolação de strings. Destructuring de objetos e arrays. Módulos ES6: import e export. Novos métodos de array e objetos."
+    },
+    {
+      "id": "11",
+      "nome": "Git & Github",
+      "moduloId": 5,
+      "duracaoMinutos": 45.17,
+      "descricao": "Nesta aula, vamos explorar o Git e o GitHub, ferramentas essenciais para controle de versão e colaboração em projetos de desenvolvimento. Você aprenderá como utilizar o Git para gerenciar seu código e como compartilhar seus projetos no GitHub.",
+      "conteudo": "Introdução ao Git e GitHub. Configuração do ambiente e instalação do Git. Comandos básicos do Git: init, add, commit, status, log. Trabalhando com branches e merge. Publicando projetos no GitHub e colaborando com outros desenvolvedores."
     }
-  ]
-
-
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
