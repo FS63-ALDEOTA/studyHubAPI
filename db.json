@@ -1,7 +1,7 @@
 {
   "usuarios": [
     {
-      "id": "1",
+      "id": 1,
       "nome": "Raul Teles",
       "email": "raul.teles@example.com",
       "senha": "senha123"
@@ -9,149 +9,149 @@
   ],
   "matriculas": [
     {
-      "id": "1",
-      "usuarioId": "1",
-      "cursoId": "1",
+      "id": 1,
+      "usuarioId": 1,
+      "cursoId": 1,
       "dataMatricula": "2026-01-15T10:30:00Z",
       "status": "ativo"
     },
     {
-      "id": "2",
-      "usuarioId": "1",
-      "cursoId": "2",
+      "id": 2,
+      "usuarioId": 1,
+      "cursoId": 2,
       "dataMatricula": "2026-02-20T14:45:00Z",
       "status": "ativo"
     },
     {
-      "id": "3",
-      "usuarioId": "1",
-      "cursoId": "3",
+      "id": 3,
+      "usuarioId": 1,
+      "cursoId": 3,
       "dataMatricula": "2026-03-10T09:15:00Z",
       "status": "concluido"
     }
   ],
   "progresso": [
     {
-      "id": "1",
-      "usuarioId": "1",
-      "cursoId": "1",
-      "moduloId": "1",
-      "aulaId": "1",
+      "id": 1,
+      "usuarioId": 1,
+      "cursoId": 1,
+      "moduloId": 1,
+      "aulaId": 1,
       "concluido": true,
       "dataConclusao": "2026-01-20T12:00:00Z"
     },
     {
-      "id": "2",
-      "usuarioId": "1",
-      "cursoId": "1",
-      "moduloId": "1",
-      "aulaId": "2",
+      "id": 2,
+      "usuarioId": 1,
+      "cursoId": 1,
+      "moduloId": 1,
+      "aulaId": 2,
       "concluido": true,
       "dataConclusao": "2026-01-22T15:30:00Z"
     },
     {
-      "id": "3",
-      "usuarioId": "1",
-      "cursoId": "1",
-      "moduloId": "2",
-      "aulaId": "3",
+      "id": 3,
+      "usuarioId": 1,
+      "cursoId": 1,
+      "moduloId": 2,
+      "aulaId": 3,
       "concluido": true,
       "dataConclusao": "2026-01-25T11:45:00Z"
     },
     {
-      "id": "4",
-      "usuarioId": "1",
-      "cursoId": "2",
-      "moduloId": "4",
-      "aulaId": "4",
+      "id": 4,
+      "usuarioId": 1,
+      "cursoId": 2,
+      "moduloId": 4,
+      "aulaId": 4,
       "concluido": true,
       "dataConclusao": "2026-02-25T14:00:00Z"
     },
     {
-      "id": "5",
-      "usuarioId": "1",
-      "cursoId": "2",
-      "moduloId": "4",
-      "aulaId": "5",
+      "id": 5,
+      "usuarioId": 1,
+      "cursoId": 2,
+      "moduloId": 4,
+      "aulaId": 5,
       "concluido": false,
       "dataConclusao": null
     },
     {
-      "id": "6",
-      "usuarioId": "1",
-      "cursoId": "2",
-      "moduloId": "4",
-      "aulaId": "6",
+      "id": 6,
+      "usuarioId": 1,
+      "cursoId": 2,
+      "moduloId": 4,
+      "aulaId": 6,
       "concluido": false,
       "dataConclusao": null
     },
     {
-      "id": "7",
-      "usuarioId": "1",
-      "cursoId": "3",
-      "moduloId": "5",
-      "aulaId": "7",
+      "id": 7,
+      "usuarioId": 1,
+      "cursoId": 3,
+      "moduloId": 5,
+      "aulaId": 7,
       "concluido": true,
       "dataConclusao": "2026-03-15T10:30:00Z"
     },
     {
-      "id": "8",
-      "usuarioId": "1",
-      "cursoId": "3",
-      "moduloId": "5",
-      "aulaId": "8",
+      "id": 8,
+      "usuarioId": 1,
+      "cursoId": 3,
+      "moduloId": 5,
+      "aulaId": 8,
       "concluido": false,
       "dataConclusao": null
     },
     {
-      "id": "Xr3lR_Y7-QM",
-      "usuarioId": "1",
-      "cursoId": "1",
-      "moduloId": "2",
-      "aulaId": "4",
+      "id": 9,
+      "usuarioId": 1,
+      "cursoId": 1,
+      "moduloId": 2,
+      "aulaId": 4,
       "concluido": true,
       "dataConclusao": "2026-01-28T16:20:00Z"
     },
     {
-      "id": "Mt135PErjqA",  
-      "usuarioId": "1",
-      "cursoId": "1",
-      "moduloId": "2",
-      "aulaId": "5",
+      "id": 10,  
+      "usuarioId": 1,
+      "cursoId": 1,
+      "moduloId": 2,
+      "aulaId": 5,
       "concluido": true,
       "dataConclusao": "2026-01-30T14:10:00Z"
     },
     {
-      "usuarioId": "1",
-      "cursoId": "1",
-      "moduloId": "2",
-      "aulaId": "6",
+      "usuarioId": 1,
+      "cursoId": 1,
+      "moduloId": 2,
+      "aulaId": 6,
       "concluido": true,
-      "id": "lhQAVkW5V6c",
+      "id": 11,
       "dataConclusao": "2026-02-02T11:50:00Z"
     }, 
     {
-      "id": "2k1J8g9K5L0",
-      "usuarioId": "1",
-      "cursoId": "3",
-      "moduloId": "5",
-      "aulaId": "7",
+      "id": 12,
+      "usuarioId": 1,
+      "cursoId": 3,
+      "moduloId": 5,
+      "aulaId": 7,
       "concluido": true,
       "dataConclusao": "2026-02-05T13:30:00Z"
     },
     {
-      "id": "3f4H6j2L8M9",
-      "usuarioId": "1",
-      "cursoId": "1",
-      "moduloId": "3",
-      "aulaId": "8",
+      "id": 13,
+      "usuarioId": 1,
+      "cursoId": 1,
+      "moduloId": 3,
+      "aulaId": 8,
       "concluido": false,
       "dataConclusao": null
     }
   ],
   "cursos": [
     {
-      "id": "1",
+      "id": 1,
       "nome": "React do Zero",
       "professor": "Carlos Mendes",
       "duracaoHoras": 40,
@@ -163,7 +163,7 @@
       "imagem": "/images/react-do-zero.jpg"
     },
     {
-      "id": "2",
+      "id": 2,
       "nome": "JavaScript Moderno",
       "professor": "Carlos Mendes",
       "duracaoHoras": 12,
@@ -175,7 +175,7 @@
       "imagem": "/images/javascript-moderno.jpg"
     },
     {
-      "id": "3",
+      "id": 3,
       "nome": "Git & Github",
       "professor": "Carlos Mendes",
       "duracaoHoras": 4,
@@ -189,92 +189,92 @@
   ],
   "modulos": [
     {
-      "id": "1",
+      "id": 1,
       "nome": "Introdução ao React",
-      "cursoId": "1"
+      "cursoId": 1
     },
     {
-      "id": "2",
+      "id": 2,
       "nome": "O Coração do React",
-      "cursoId": "1"
+      "cursoId": 1
     },
     {
-      "id": "3",
+      "id": 3,
       "nome": "Hooks e Além",
-      "cursoId": "1"
+      "cursoId": 1
     },
     {
-      "id": "4",
+      "id": 4,
       "nome": "Fundamentos do JavaScript",
-      "cursoId": "2"
+      "cursoId": 2
     },
     {
-      "id": "5",
+      "id": 5,
       "nome": "Controle de Versão com Git",
-      "cursoId": "3"
+      "cursoId": 3
     }
   ],
   "aulas": [
     {
-      "id": "1",
+      "id": 1,
       "nome": "O que é React?",
-      "moduloId": "1",
+      "moduloId": 1,
       "duracaoMinutos": 12,
       "descricao": "Nesta aula, vamos explorar o que é o React, uma biblioteca JavaScript para a construção de interfaces de usuário. Você aprenderá sobre os conceitos fundamentais do React, sua história e por que ele se tornou tão popular no desenvolvimento web moderno.",
       "conteudo": "História do React e sua evolução. Conceitos fundamentais: Componentes, Props e State. Vantagens do React em relação a outras bibliotecas e frameworks. Casos de uso e exemplos de aplicações construídas com React."
     },
     {
-      "id": "2",
+      "id": 2,
       "nome": "Configurando o Ambiente",
-      "moduloId": "1",
+      "moduloId": 1,
       "duracaoMinutos": 8.75,
       "descricao": "Nesta aula, vamos configurar o ambiente de desenvolvimento para trabalhar com React. Você aprenderá a instalar as ferramentas necessárias, criar um projeto React do zero e entender a estrutura básica de um aplicativo React.",
       "conteudo": "Instalação do Node.js e npm. Criando um projeto React com Create React App. Estrutura de pastas e arquivos do projeto. Configuração do editor de código e extensões úteis. Executando o aplicativo React no navegador."
     },
     {
-      "id": "3",
+      "id": 3,
       "nome": "JSX desvendado",
-      "moduloId": "2",
+      "moduloId": 2,
       "duracaoMinutos": 22.25,
       "descricao": "Nesta aula, vamos explorar o JSX, a sintaxe especial do React que permite escrever HTML dentro do JavaScript. Você aprenderá como o JSX é transformado em código JavaScript e como utilizá-lo para criar interfaces de usuário de forma intuitiva.",
       "conteudo": "O que é JSX e como ele funciona. Diferença entre JSX e HTML. Como o JSX é transformado em JavaScript. Expressões e interpolação de valores no JSX. Atributos e propriedades em elementos JSX."
     },
     {
-      "id": "4",
+      "id": 4,
       "nome": "Pensando em Componentes",
-      "moduloId": "2",
+      "moduloId": 2,
       "duracaoMinutos": 15.5,
       "descricao": "Nesta aula, vamos explorar o conceito de Componentes no React. Você aprenderá como dividir sua interface em partes reutilizáveis, facilitando a manutenção e a escalabilidade do seu código.",
       "conteudo": "O que são Componentes e porque utilizá-los. Diferença entre Componentes de Classe e Componentes Funcionais. Estrutura básica de um Componente React. Props e State: Conceitos fundamentais para criar componentes dinâmicos."
     },
     {
-      "id": "5",
+      "id": 5,
       "nome": "Props e Componentes",
-      "moduloId": "2",
+      "moduloId": 2,
       "duracaoMinutos": 45.33,
       "descricao": "Nesta aula, mergulharemos no conceito fundamental de Props (Propriedades). Você aprenderá como passar dados de um componente pai para um componente filho, permitindo a criação de interfaces dinâmicas e reutilizáveis.",
       "conteudo": "O que são Props e porque usá-las. Desestruturação de props em componentes funcionais. Tipagem de props com TypeScript (Básico). Default Props e children."
     },
     {
-      "id": "6",
+      "id": 6,
       "nome": "State e Ciclo de Vida",
-      "moduloId": "2",
+      "moduloId": 2,
       "duracaoMinutos": 45.17,
       "descricao": "Nesta aula, exploraremos o conceito de State (Estado) em componentes React. Você aprenderá como gerenciar dados internos de um componente, permitindo que ele reaja a mudanças e atualize a interface do usuário de forma eficiente.",
       "conteudo": "O que é State e como utilizá-lo. useState: Hook para gerenciar estado em componentes funcionais. Ciclo de vida de componentes e como o State se relaciona com ele. Atualização de estado assíncrona e suas implicações."
     },
     {
-      "id": "7",
+      "id": 7,
       "nome": "Hooks: useState e useEffect",
-      "moduloId": "3",
+      "moduloId": 3,
       "duracaoMinutos": 45.33,
       "descricao": "Nesta aula, vamos explorar dois dos Hooks mais utilizados no React: useState e useEffect. Você aprenderá como gerenciar o estado de componentes funcionais e como lidar com efeitos colaterais, como chamadas de API e manipulação do DOM.",
       "conteudo": "useState: Hook para gerenciar estado em componentes funcionais. useEffect: Hook para lidar com efeitos colaterais, como chamadas de API e manipulação do DOM. Dependências do useEffect e como evitar loops infinitos. Limpeza de efeitos e boas práticas."
     },
     {
-      "id": "8",
+      "id": 8,
       "nome": "Hooks: useContext",
-      "moduloId": "3",
+      "moduloId": 3,
       "duracaoMinutos": 45.17,
       "descricao": "Nesta aula, vamos explorar o Hook useContext, que permite compartilhar dados entre componentes sem a necessidade de passar props manualmente em cada nível da árvore de componentes. Você aprenderá como criar e consumir contextos no React.",
       "conteudo": "O que é Context API e quando utilizá-la. Criando um contexto com React.createContext. Consumindo o contexto com useContext em componentes funcionais. Atualizando o contexto e propagando mudanças para os componentes consumidores."
@@ -282,7 +282,7 @@
     {
       "id": "9",
       "nome": "Hooks: useReducer",
-      "moduloId": "3",
+      "moduloId": 3,
       "duracaoMinutos": 45.33,
       "descricao": "Nesta aula, vamos explorar o Hook useReducer, que é uma alternativa ao useState para gerenciar estados mais complexos em componentes funcionais. Você aprenderá como utilizar o padrão de reducer para atualizar o estado de forma previsível.",
       "conteudo": "O que é useReducer e quando utilizá-lo. Estrutura de um reducer: estado inicial, ação e função reducer. Despachando ações para atualizar o estado. Comparação entre useState e useReducer em termos de complexidade de estado."
@@ -290,7 +290,7 @@
     {
       "id": "10",
       "nome": "JavaScript Moderno",
-      "moduloId": "4",
+      "moduloId": 4,
       "duracaoMinutos": 45.17,
       "descricao": "Nesta aula, vamos explorar os recursos modernos do JavaScript, incluindo ES6 e além. Você aprenderá sobre as novas funcionalidades da linguagem, como arrow functions, template literals, destructuring, módulos e muito mais.",
       "conteudo": "Introdução ao JavaScript moderno e suas vantagens. Arrow functions e suas diferenças em relação às funções tradicionais. Template literals e interpolação de strings. Destructuring de objetos e arrays. Módulos ES6: import e export. Novos métodos de array e objetos."
@@ -298,7 +298,7 @@
     {
       "id": "11",
       "nome": "Git & Github",
-      "moduloId": "5",
+      "moduloId": 5,
       "duracaoMinutos": 240,
       "descricao": "Nesta aula, vamos explorar o Git e o GitHub, ferramentas essenciais para controle de versão e colaboração em projetos de desenvolvimento. Você aprenderá como utilizar o Git para gerenciar seu código e como compartilhar seus projetos no GitHub.",
       "conteudo": "Introdução ao Git e GitHub. Configuração do ambiente e instalação do Git. Comandos básicos do Git: init, add, commit, status, log. Trabalhando com branches e merge. Publicando projetos no GitHub e colaborando com outros desenvolvedores."
